@@ -29,8 +29,8 @@ body{
    position: fixed;
    display: inline-block;
    top: 100px;
-   width: 29.5%;
-    height: 55%;
+   width: 26%;
+    height: 50%;
    border-radius: 0 12px 12px 0;
    background-color: hsla(277, 64%, 61%, 0.562); /* Rouge avec 50% de transparence */
    z-index: 1; /* Place derrière l'image */
