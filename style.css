@@ -29,7 +29,7 @@ body{
    position: absolute;
    display: inline-block;
    top: 100px;
-   width: 29.5%;
+   width: 30%;
    height: 55%;
    overflow: hidden;
    flex-wrap: wrap;
@@ -80,4 +80,68 @@ span{
    font-weight: 400;
    margin-top: 3px;
    letter-spacing: 1px;
+}
+@media (max-width: 768px) {
+   body {
+      margin: 50px auto;
+      padding: 0 15px;
+   }
+
+   .container {
+      flex-direction: column; /* Empile les éléments verticalement */
+      width: 100%;
+      height: auto;
+      margin: 50px auto;
+   }
+
+   .content2 img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 12px 12px 0 0; /* Changement pour l'empilement vertical */
+   }
+
+   .content2::after {
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border-radius: 12px 12px 0 0; /* Ajustement pour l'effet */
+   }
+
+   .content1 {
+      max-width: 100%;
+      padding: 20px;
+      min-height: auto;
+      border-radius: 0 0 12px 12px; /* Ajustement pour l'empilement vertical */
+   }
+
+   .content1 h1 {
+      font-size: 28px; /* Réduction de la taille pour mobile */
+      margin-bottom: 15px;
+   }
+
+   .content1 p {
+      font-size: 16px;
+      line-height: 22px;
+   }
+
+   .abonnement {
+      flex-direction: column; /* Empile les abonnements */
+      align-items: flex-start;
+      margin-top: 40px;
+   }
+
+   .content-abonnement {
+      margin-right: 0; /* Suppression de l'espace horizontal */
+      margin-bottom: 20px; /* Ajout d'espace vertical entre les éléments */
+   }
+
+   .content-abonnement h2 {
+      font-size: 20px;
+   }
+
+   .content-abonnement p {
+      font-size: 12px;
+      margin-top: 5px;
+   }
 }
