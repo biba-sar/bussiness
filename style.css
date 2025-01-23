@@ -12,13 +12,13 @@ body{
 .container{
    display: flex;
    align-items: center;
-   margin: 100px auto;
+   margin: 120px auto;
    width: 1000px;
    height: 390px;
 }
 .content2 img{
-   max-width: 450px;
-   height: 390px;
+   max-width: 500px;
+   height: 400px;
    display: block;
    position: relative;
    z-index: 0;
@@ -28,9 +28,9 @@ body{
    content: "";
    position: absolute;
    display: inline-block;
-   top: 100px;
+   top: 115px;
    width: 30%;
-   height: 55%;
+   height: 50%;
    overflow: hidden;
    flex-wrap: wrap;
    border-radius: 0 12px 12px 0;
@@ -40,7 +40,7 @@ body{
 .content1{
    display: block;
    justify-content: center;
-   padding: 45px;
+   padding: 60px;
    max-width: 480px;
    min-height: 350px;
    border: none;
