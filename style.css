@@ -43,8 +43,8 @@ body{
    display: block;
    justify-content: center;
    padding: 50px;
-   max-width: 480px;
-   min-height: 350px;
+   max-width: 500px;
+   min-height: 420px;
    border: none;
    overflow: hidden;
    border-radius: 12px 0 0 12px;
