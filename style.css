@@ -42,7 +42,7 @@ body{
 .content1{
    display: block;
    justify-content: center;
-   padding: 60px;
+   padding: 50px;
    max-width: 480px;
    min-height: 350px;
    border: none;
